@@ -35,7 +35,7 @@
 			data: {"nome":nome,"telefone":telefone},
 		});
 
-		alert("Cadastrao com sucesso!");
+		alert("Cadastrado com sucesso!");
 		//reload tabela
 		setInterval(function(){
 			$("#tabela").load("tabela.php");
