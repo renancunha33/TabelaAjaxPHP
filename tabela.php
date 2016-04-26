@@ -18,7 +18,7 @@
 
 			$nome = "'".$row['nm_cadastro']."'"; 
 
-			echo '<tr onclick="teste('.$nome.')"><td>' . $row['nm_cadastro'] . '</td><td>' . $row['tel_cadastro'] . '</td></tr>'; 
+			echo '<tr><td>' . $row['nm_cadastro'] . '</td><td>' . $row['tel_cadastro'] . '</td></tr>'; 
 		}
 
 		echo "</table></div>";
